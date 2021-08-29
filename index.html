@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The Makaveli Fan Site</title>
+	<link rel="icon" href="img/purple-juice.jpg">
+	<link rel="stylesheet" href="css/amaru.css">
+	<script src="js/includeHTML.js"></script>
+</head>
+<body>
+
+	<!-- Header Element -->
+	<header>
+		<img src="img/2pac-westside.jpg">
+		<h1>Makaveli</h1>
+		<p>The Fan Site</p>
+	</header>
+
+	<?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/";
+		include($IPATH."navigation.html")?>
+	<!-- Main Element -->
+	<main>
+		<h2>Tupac Amaru Shakur</h2>
+		<p>A legend in his own right, 2Pac/Makaveli was a U.S. rapper, who
+			influenced Hip-Hop culture forever.</p>
+		<div class="polaroid">
+			<img src="img/motupac.jpg">
+			<p class="caption">Tupac In His Element</p>
+		</div>
+		<p>Discover the poetic talent that was Tupac Amaru Shakur, from the streets
+			of Brooklyn, to the shores of Los Angeles. The rose that grew from the
+			concrete, and touched millions of fans.</p>
+	</main>
+
+	<!-- Footer Element -->
+	<footer>
+		&copy; Copyright 2021
+	</footer>
+</body>
+</html>

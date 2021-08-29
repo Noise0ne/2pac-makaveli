@@ -1,0 +1,96 @@
+@font-face {
+	font-family: 'Crackhouse';
+	src: url('fonts/crackhouse.ttf') format('truetype');
+}
+
+body {
+	background-color: #aabbcc;
+	font-family: "Times New Roman", serif;
+	margin: 0;
+}
+
+h1 {
+  font: normal 64px 'Crackhouse';
+}
+
+/* Header Styles */
+
+header {
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 50px 0;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+}
+
+header img {
+	width: 300px;
+}
+
+header p {
+	margin: 0;
+}
+
+/* Navigation Styles */
+
+nav {
+	background-color: #445566;
+	font-weight: bold;
+	padding: 10px 0;
+	text-align: center;
+}
+
+nav a {
+	color: #aabbcc;
+	text-decoration: none;
+}
+
+nav a:hover {
+	opacity: .5;
+}
+
+/* Main Styles */
+
+main {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+main img {
+	width: 100%;
+}
+
+/* Footer Styles */
+
+footer {
+	background-color: black;
+	color: white;
+  padding: 50px;
+	text-align: center;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer a{
+  color: white;
+}
+
+p.caption {
+	color: darkgrey;
+	font-style: italic;
+	margin: 0;
+}
+
+div.polaroid {
+	background-color: white;
+	border: 10px solid white;
+	box-shadow: 0px 0px 5px black;
+	margin: 20px 0;
+}
