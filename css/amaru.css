@@ -5,7 +5,8 @@
 
 body {
 	background-color: #aabbcc;
-	font-family: "Times New Roman", serif;
+	/*font-family: "Times New Roman", serif;*/
+	font-family: Cambria, serif;
 	margin: 0;
 }
 
@@ -83,14 +84,63 @@ footer a{
 }
 
 p.caption {
-	color: darkgrey;
+	color: grey;
 	font-style: italic;
-	margin: 0;
+	margin: 5px 0 0;
+}
+
+div.album {
+	margin: 0 10px;
+	width: 250px;
 }
 
 div.polaroid {
 	background-color: white;
 	border: 10px solid white;
+	border-radius: 5px;
 	box-shadow: 0px 0px 5px black;
 	margin: 20px 0;
+}
+
+div.polaroid img {
+	border-radius: 3px;
+}
+
+div.left-side {
+	float: left;
+	margin: 0 20px 0 0;
+	width: 250px;
+}
+
+div.right-side {
+	float: right;
+	margin: 0 0 0 20px;
+	width: 250px;
+}
+
+div.photo {
+	border-width: 6px;
+	margin: 10px auto;
+	width: 200px;
+}
+
+ol.track-list {
+	font-weight: bold;
+	margin: 20px 0;
+	width: 60%;
+}
+
+ol a {
+	color: rgba(0, 0, 0, 0.75);
+	font-weight: normal;
+	text-decoration: none;
+}
+
+ol a:hover {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+span.grid {
+	display: flex;
+	flex-flow: row wrap;
 }
